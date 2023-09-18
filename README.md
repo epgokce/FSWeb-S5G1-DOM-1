@@ -16,9 +16,9 @@ Tanımlanan nesnenin aşağısında gerekli DOM manipülasyonlarını gerçekle�
 
 ## Git Kurulumu
 
-* [ ] Forklayarak bir kopya oluşturun.
-* [ ] Repository'nin kendi forkladığınız versiyonunu klonlayın.
-* [ ] Commit'inizi pushlayın: `git push origin main`.
+* [+] Forklayarak bir kopya oluşturun.
+* [+] Repository'nin kendi forkladığınız versiyonunu klonlayın.
+* [+] Commit'inizi pushlayın: `git push origin main`.
 
 ## Projeyi çalıştırma
 
