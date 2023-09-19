@@ -22,25 +22,25 @@ Tanımlanan nesnenin aşağısında gerekli DOM manipülasyonlarını gerçekle�
 
 ## Projeyi çalıştırma
 
-* [ ] `npm install` komutuyla projenin bağlı dosyalarını indirebilirsiniz.
-* [ ] `npm start` komutuyla sayfayı deploy edebilirsiniz: `http://localhost:3000`.
-* [ ] Terminal ekranını split ederek 2. bir terminal ekranı daha açınız.
-* [ ] `npm test` komutuyla kodlarınızı test edebilirsiniz (yeni bir terminal penceresine ihtiyacınız var).
+* [+] `npm install` komutuyla projenin bağlı dosyalarını indirebilirsiniz.
+* [+] `npm start` komutuyla sayfayı deploy edebilirsiniz: `http://localhost:3000`.
+* [+] Terminal ekranını split ederek 2. bir terminal ekranı daha açınız.
+* [+] `npm test` komutuyla kodlarınızı test edebilirsiniz (yeni bir terminal penceresine ihtiyacınız var).
 
 ## Minimum Uygulanabilir Ürün
 
 ### İlgili öğelere erişmek için seçiciler(selectors) oluşturun
 
-* [ ] Öğrendiğiniz seçicilerden herhangi birini kullanarak ilgili DOM öğelerini düzenleyebileceğiniz değişkenleri tanımlayın.
+* [+] Öğrendiğiniz seçicilerden herhangi birini kullanarak ilgili DOM öğelerini düzenleyebileceğiniz değişkenleri tanımlayın.
 
 ### Metin içeriği ekle
 
-* [ ] Seçicilerinizi(selector) kullanarak ilgili öğelerin metin içeriklerini tasarım dosyasıyla eşleştirerek güncelleyin.
-* [ ] Elementler için gerekli text metinleri nesnenin içerisinden bulun; `src/index.js`.
+* [+] Seçicilerinizi(selector) kullanarak ilgili öğelerin metin içeriklerini tasarım dosyasıyla eşleştirerek güncelleyin.
+* [+] Elementler için gerekli text metinleri nesnenin içerisinden bulun; `src/index.js`.
 
 ### Sınıf(class) adları ekleyin
 
-* [ ] (menü içindeki) öğeleri italic(yatay) yapmak için class'ına `italic` atayın ve yalnız bırakın.
+* [+] (menü içindeki) öğeleri italic(yatay) yapmak için class'ına `italic` atayın ve yalnız bırakın.
 * [ ] (footer içindeki) öğelerin bold(kalın) görünmesi için class'ına `bold` atayın ve yalnız bırakın.
 
 ### Resim kaynakları ekleyin

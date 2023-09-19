@@ -1,5 +1,5 @@
 const siteContent = { // BU NESNEYİ DEĞİŞTİRMEYİN
-  "nav": {
+  nav: {
     "nav-item-1": "Servisler",
     "nav-item-2": "Ürünler",
     "nav-item-3": "Vizyon",
@@ -29,7 +29,7 @@ const siteContent = { // BU NESNEYİ DEĞİŞTİRMEYİN
     "telefon": "+90 (123) 456-7899",
     "email": "satis@birsirketsitesi.com.tr",
   },
-  "footer": {
+  footer: {
     "copyright": "Copyright Bir Şirket Sitesi 2022",
   },
   "images": {
@@ -43,3 +43,15 @@ console.log('Proje açıldı!')
 
 
 /* Kodlar Buradan aşağıya */
+
+const menuATags = document.querySelectorAll("header nav a");
+// dynamic object keys
+const navTitles = Object.values(siteContent.nav);
+menuATags.forEach((nav, i) => {
+  nav.classList.add("italic");
+  nav.textContent = navTitles[i];
+});
+
+const footerCopyright = document.querySelector("footer a");
+footerCopyright.textContent = siteContent.footer.copyright;
+footerCopyright.classList.add("bold");
