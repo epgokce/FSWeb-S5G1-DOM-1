@@ -55,3 +55,15 @@ menuATags.forEach((nav, i) => {
 const footerCopyright = document.querySelector("footer a");
 footerCopyright.textContent = siteContent.footer.copyright;
 footerCopyright.classList.add("bold");
+
+document
+  .getElementById("logo-img")
+  .setAttribute("src", siteContent.images["logo-img"]);
+
+document
+  .getElementById("cta-img")
+  .setAttribute("src", siteContent.images["cta-img"]);
+
+document
+  .getElementById("middle-img")
+  .setAttribute("src", siteContent.images["accent-img"]);
