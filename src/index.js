@@ -67,3 +67,14 @@ document
 document
   .getElementById("middle-img")
   .setAttribute("src", siteContent.images["accent-img"]);
+
+  const contactSection = document.querySelector("section.contact");
+const contactH4 = contactSection.querySelector("h4");
+
+contactH4.textContent = siteContent.iletisim["iletişim-h4"];
+
+const contactPs = contactSection.querySelectorAll("p");
+
+contactPs.forEach((p, i) => {
+  p.textContent = Object.values(siteContent.iletisim)[i + 1];
+});
