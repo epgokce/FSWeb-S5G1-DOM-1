@@ -78,3 +78,8 @@ const contactPs = contactSection.querySelectorAll("p");
 contactPs.forEach((p, i) => {
   p.textContent = Object.values(siteContent.iletisim)[i + 1];
 });
+
+const ctaText = document.querySelector(".cta-text h1");
+ctaText.textContent = siteContent.cta.h1;
+document.querySelector(".cta-text button").textContent = siteContent.cta.button;
+
