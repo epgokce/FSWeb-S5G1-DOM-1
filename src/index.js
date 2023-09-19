@@ -83,3 +83,10 @@ const ctaText = document.querySelector(".cta-text h1");
 ctaText.textContent = siteContent.cta.h1;
 document.querySelector(".cta-text button").textContent = siteContent.cta.button;
 
+const theContentArray = Object.values(siteContent["ana-içerik"]);
+
+const theContentBody = document.querySelectorAll(".text-content");
+theContentBody.forEach((c, i) => {
+  c.querySelector("h4").textContent = theContentArray[i * 2];
+  c.querySelector("p").textContent = theContentArray[i * 2 + 1];
+});
